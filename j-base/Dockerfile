@@ -3,6 +3,7 @@ FROM openjdk:8-jre-slim
 # 定义jmeter版本
 ARG JMETER_VERSION=5.3
 
+
 # 安装容器内部工具
 RUN apt-get clean && \
     apt-get update && \
@@ -37,6 +38,7 @@ COPY scripts/docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x install_plugin-manager.sh /docker-entrypoint.sh
 # 安装插件
 RUN ./install_plugin-manager.sh
+COPY jars/* lib/ext/
 # 暴露端口
 EXPOSE 60000 1099 50000
 # docker-compose.yml文件中定义command命令启动方式master和slaver
