@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CMD_RUNNER_URL="http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/2.2/cmdrunner-2.2.jar"
-PLUGIN_MANAGER_URL="https://jmeter-plugins.org/get/"
+PLUGIN_MANAGER_URL="https://jmeter-plugins.org/get"
 
 # 下载cmdrunner.jar
 wget -O "lib/cmdrunner-2.2.jar" $CMD_RUNNER_URL

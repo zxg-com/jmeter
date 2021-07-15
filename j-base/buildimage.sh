@@ -1,1 +1,1 @@
-cd j-bash && docker build -t jbase .
+cd j-bash/local && docker-compose up -d
