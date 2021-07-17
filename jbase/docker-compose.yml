@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  master:
+    image: zhangxianguo/j-base
+    container_name: jmeter_master
+    command: master
+    tty: true
+    ports:
+      - "60000"
+    volumes:
+      - "./test/:/jmeter/sample/"
+    networks:
+      - jmeter_network
+      
+  server1:
+    image: zhangxianguo/j-base-slave
+    container_name: jmeter_slave1
+    tty: true
+    ports:
+      - "50000"
+      - "1099"
+    networks:
+      - jmeter_network
+    depends_on:
+      - master
+
+  server2:
+    image: zhangxianguo/j-base-slave
+    container_name: jmeter_slave2
+    tty: true
+    ports:
+      - "50000"
+      - "1099"
+    networks:
+      - jmeter_network
+    depends_on:
+      - master
+
+networks:
+  jmeter_network:
