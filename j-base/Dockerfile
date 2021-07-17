@@ -40,6 +40,6 @@ RUN chmod +x install_plugin-manager.sh /docker-entrypoint.sh
 RUN ./install_plugin-manager.sh
 COPY jars/* lib/ext/
 # 暴露端口
-EXPOSE 60000 1099 50000
+EXPOSE 60000 
 # docker-compose.yml文件中定义command命令启动方式master和slaver
 ENTRYPOINT ["/docker-entrypoint.sh"]

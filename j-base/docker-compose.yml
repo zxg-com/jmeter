@@ -1,8 +1,8 @@
-version: '3'
+version: '2'
 
 services:
   master:
-    build: ..
+    image: zhangxianguo/j-base
     command: master
     tty: true
     ports:
@@ -11,9 +11,9 @@ services:
       - "./test/:/jmeter/sample/"
     networks:
       - jmeter-network
+      
   server:
-    image: j-base:latest
-    command: server
+    image: zhangxianguo/j-base-slave
     tty: true
     ports:
       - "50000"

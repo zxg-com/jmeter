@@ -1,1 +1,1 @@
-cd j-bash/local && docker-compose up -d
+docker build -t zhangxianguo/j-base . &&  docker build -t zhangxianguo/j-base-slave -f ./slave/Dockerfile
