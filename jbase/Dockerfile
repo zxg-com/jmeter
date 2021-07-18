@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-slim
 
 # 定义jmeter版本
-ARG JMETER_VERSION=5.3
+ARG JMETER_VERSION=5.4.1
 
 
 # 安装容器内部工具
