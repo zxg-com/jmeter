@@ -1,0 +1,114 @@
+2021-07-18 09:12:53,947 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-07-18 09:12:53,972 INFO o.a.j.JMeter: Loading user properties from: /Users/xuyang/Downloads/apache-jmeter-5.4.1/bin/user.properties
+2021-07-18 09:12:53,973 INFO o.a.j.JMeter: Loading system properties from: /Users/xuyang/Downloads/apache-jmeter-5.4.1/bin/system.properties
+2021-07-18 09:12:53,986 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-07-18 09:12:53,986 INFO o.a.j.JMeter: Version 5.4.1
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: java.version=1.8.0_201
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: os.arch=x86_64
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: os.version=10.16
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: java.awt.headless=null
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-07-18 09:12:53,987 INFO o.a.j.JMeter: Available Processors =4
+2021-07-18 09:12:53,993 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-07-18 09:12:53,993 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-07-18 09:12:53,994 INFO o.a.j.JMeter: JMeterHome=/Users/xuyang/Downloads/apache-jmeter-5.4.1
+2021-07-18 09:12:53,994 INFO o.a.j.JMeter: user.dir  =/Users/xuyang/Desktop/jmeter/jbase/jars
+2021-07-18 09:12:53,994 INFO o.a.j.JMeter: PWD       =/Users/xuyang/Desktop/jmeter/jbase/jars
+2021-07-18 09:12:53,996 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: zhangxianguo.local FullName: localhost
+2021-07-18 09:12:54,402 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2021-07-18 09:12:56,873 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2021-07-18 09:13:08,272 INFO o.j.r.JARSourceHTTP: Found cached repo
+2021-07-18 09:13:08,656 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=Standard, jpgc-graphs-additional=2.0, jpgc-sense=Standard, jpgc-cmd=Standard, jpgc-graphs-composite=Standard, jpgc-csl=Standard, jpgc-functions=Standard, jpgc-casutg=Standard, jpgc-dummy=Standard, jpgc-filterresults=Standard, jpgc-ffw=Standard, jpgc-fifo=Standard, jpgc-graphs-vs=2.0, mqtt-xmeter=1.0.1, jpgc-mergeresults=Standard, jpgc-perfmon=Standard, jpgc-plugins-manager=1.6, jpgc-synthesis=Standard, jpgc-plancheck=Standard, jpgc-tst=Standard, websocket-sampler=1.0.2-SNAPSHOT, websocket-samplers=1.2.2, jpgc-wsc=Standard, jmeter-core=5.4.1, jmeter-ftp=5.4.1, jmeter-http=5.4.1, jmeter-jdbc=5.4.1, jmeter-jms=5.4.1, jmeter-junit=5.4.1, jmeter-java=5.4.1, jmeter-ldap=5.4.1, jmeter-mail=5.4.1, jmeter-mongodb=5.4.1, jmeter-native=5.4.1, jmeter-tcp=5.4.1, jmeter-components=5.4.1, jpgc-standard=2.0]
+2021-07-18 09:13:08,667 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [mqtt-xmeter, websocket-samplers]
+2021-07-18 09:13:10,908 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_201]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_201]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:207) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:151) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:107) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:94) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.4.1]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) ~[?:1.8.0_201]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) ~[?:1.8.0_201]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) ~[?:1.8.0_201]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) ~[?:1.8.0_201]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) ~[?:1.8.0_201]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_201]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) ~[?:1.8.0_201]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) ~[?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) ~[?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) ~[?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109) ~[?:1.8.0_201]
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190) ~[?:1.8.0_201]
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235) ~[?:1.8.0_201]
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233) ~[?:1.8.0_201]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_201]
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233) ~[?:1.8.0_201]
+	at java.awt.Dialog.show(Dialog.java:1084) ~[?:1.8.0_201]
+	at java.awt.Component.show(Component.java:1671) ~[?:1.8.0_201]
+	at java.awt.Component.setVisible(Component.java:1623) ~[?:1.8.0_201]
+	at java.awt.Window.setVisible(Window.java:1014) ~[?:1.8.0_201]
+	at java.awt.Dialog.setVisible(Dialog.java:1005) ~[?:1.8.0_201]
+	at org.apache.jmeter.SplashScreen.lambda$showScreen$0(SplashScreen.java:95) ~[ApacheJMeter_core.jar:5.4.1]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_201]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_201]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_201]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_201]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_201]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_201]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74) [?:1.8.0_201]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_201]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_201]
+Caused by: java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	... 48 more
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_201]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	... 48 more
+2021-07-18 09:13:19,231 INFO o.a.j.s.FileServer: Default base='/Users/xuyang/Desktop/jmeter/jbase/jars'
+2021-07-18 09:13:19,268 INFO o.a.j.g.a.Load: Loading file: /Users/xuyang/Desktop/tstPlan.jmx
+2021-07-18 09:13:19,269 INFO o.a.j.s.FileServer: Set new base='/Users/xuyang/Desktop'
+2021-07-18 09:13:19,556 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-07-18 09:13:19,571 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-07-18 09:13:19,575 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-07-18 09:13:19,581 INFO o.a.j.s.SaveService: Loading file: /Users/xuyang/Desktop/tstPlan.jmx
+2021-07-18 09:13:19,839 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-07-18 09:13:19,840 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-07-18 09:13:19,840 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-07-18 09:13:19,840 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-07-18 09:13:19,840 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-07-18 09:13:19,841 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-07-18 09:13:19,849 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-07-18 09:13:19,849 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-07-18 09:13:19,849 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-07-18 09:13:19,849 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-07-18 09:13:19,957 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-07-18 09:13:19,957 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-07-18 09:13:21,371 INFO o.a.j.s.FileServer: Set new base='/Users/xuyang/Desktop'
+2021-07-18 09:13:44,498 INFO o.a.j.g.a.Load: Loading file: /Users/xuyang/Desktop/性能文档/脚本/性能总结/jmeter总结.jmx
+2021-07-18 09:13:44,498 INFO o.a.j.s.FileServer: Set new base='/Users/xuyang/Desktop/性能文档/脚本/性能总结'
+2021-07-18 09:13:44,499 INFO o.a.j.s.SaveService: Loading file: /Users/xuyang/Desktop/性能文档/脚本/性能总结/jmeter总结.jmx
+2021-07-18 09:13:44,748 INFO o.a.d.c.l.LoggerFactory: using logger: org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2021-07-18 09:13:44,758 WARN e.l.j.w.WebsocketSampler: Detected Maciej Zaleski's WebSocket Sampler plugin is installed too, which is not compatible with this plugin (but both can co-exist).
+2021-07-18 09:13:50,046 WARN o.a.j.t.g.GenericTestBeanCustomizer: No editor for property: generator type: interface com.gslab.pepper.loadgen.BaseLoadGenerator in bean: Pepper-Box PlainText Config
+2021-07-18 09:13:50,050 WARN o.a.j.t.g.GenericTestBeanCustomizer: com.gslab.pepper.config.plaintext.PlainTextConfigElement#jsonSchema(java.lang.String) requires a value but does not provide a default.
+2021-07-18 09:13:53,214 INFO o.a.j.s.FileServer: Set new base='/Users/xuyang/Desktop/性能文档/脚本/性能总结'
